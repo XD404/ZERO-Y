@@ -37,7 +37,6 @@ oks = []
 cps = []
 id = []
 
-#os.system('xdg-open https://github.com/SEFAT-MAHADI') 
 logox=(f"""
 \033[1;37mm8888b. d88888b db    db d888888b db      .d8888. 
 \033[1;37m88  `8D 88'     88    88   `88'   88      88'  YP 
@@ -74,7 +73,7 @@ def foxF():
         pass_lmit =1
     for i in range(pass_lmit):
         dplist.append(input(f'\033[0;36m</>\033[38;5;46mPASSWORD NO.{i+1} : '))
-    with ThreadPool(max_workers=30) as Mahadi:
+    with ThreadPool(max_workers=40) as Mahadi:
         os.system('clear');logo();total_ids = str(len(dx))
         print(f'\033[0;36m</>\033[38;5;46mTOTAL ACCOUNT : '+total_ids)
         print(f'\033[0;36m</>\033[38;5;46mIF NO RESULT USE AIRPLANE MODE')
